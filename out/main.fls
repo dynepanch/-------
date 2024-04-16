@@ -73,5 +73,33 @@ INPUT extractbb -B cropbox -O image/roomba.png
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
+INPUT c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT ./image/rulo.jpg
+INPUT ./image/rulo.jpg
+INPUT ./image/rulo.jpg
+INPUT extractbb -B cropbox -O image/rulo.jpg
+INPUT ./image/model01.jpg
+INPUT ./image/model01.jpg
+INPUT ./image/model01.jpg
+INPUT extractbb -B cropbox -O image/model01.jpg
 OUTPUT out/main.dvi
+INPUT ./image/model02.jpg
+INPUT ./image/model02.jpg
+INPUT ./image/model02.jpg
+INPUT extractbb -B cropbox -O image/model02.jpg
 INPUT out/main.aux

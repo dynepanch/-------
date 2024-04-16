@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.4.7)  16 APR 2024 19:34
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.4.7)  16 APR 2024 21:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -214,11 +214,32 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 File: image/roomba.png Graphic file (type bmp)
 <image/roomba.png>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 83.
+(Font)              scaled to size 8.64899pt on input line 82.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 83.
+(Font)              scaled to size 8.64899pt on input line 82.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 95.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 95.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 95.
+(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 95.
+(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+File: image/rulo.jpg Graphic file (type bmp)
+<image/rulo.jpg>
+File: image/model01.jpg Graphic file (type bmp)
+<image/model01.jpg>
 [1
 
+
+]
+File: image/model02.jpg Graphic file (type bmp)
+<image/model02.jpg>
+[2
 
 ] (out/main.aux)
  ***********
@@ -228,12 +249,12 @@ L3 programming layer <2024-03-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2579 strings out of 474762
- 37619 string characters out of 5761808
- 1926341 words of memory out of 5000000
- 24957 multiletter control sequences out of 15000+600000
- 565128 words of font info for 70 fonts, out of 8000000 for 9000
+ 2638 strings out of 474762
+ 38661 string characters out of 5761808
+ 1930341 words of memory out of 5000000
+ 24999 multiletter control sequences out of 15000+600000
+ 567011 words of font info for 80 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 57i,5n,65p,286b,338s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,5n,65p,286b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/main.dvi (1 page, 3164 bytes).
+Output written on out/main.dvi (2 pages, 6992 bytes).

@@ -1,22 +1,31 @@
 # Fdb version 4
-["dvipdf"] 1713263644.1462 "out/main.dvi" "out/main.pdf" "out/main" 1713263645.31022 0
-  "out/main.dvi" 1713263644 3164 cde9c6195fe0ce5eb0096ca9838a1cc5 "latex"
+["dvipdf"] 1713271216.75 "out/main.dvi" "out/main.pdf" "out/main" 1713271217.95825 0
+  "out/main.dvi" 1713271216 6992 1f45461401499fcbe4831771c62a7bc8 "latex"
   (generated)
   "out/main.pdf"
   (rewritten before read)
-["latex"] 1713263642.67326 "c:/Users/right/OneDrive/ドキュメント/院試研究計画書/main.tex" "out/main.dvi" "main" 1713263645.30694 0
-  "c:/Users/right/OneDrive/ドキュメント/院試研究計画書/main.tex" 1713263640 4088 9b012de9f10b7861258a528782628aaf ""
+["latex"] 1713271213.2101 "c:/Users/right/OneDrive/ドキュメント/院試研究計画書/main.tex" "out/main.dvi" "main" 1713271217.95492 0
+  "c:/Users/right/OneDrive/ドキュメント/院試研究計画書/main.tex" 1713271212 6801 a6ed966ab7f70b3124b30e85a5b482de ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1712482887 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm" 1712484853 468 53f854284f6afa6c36aaa2d1090ecc12 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm" 1712484853 468 53f854284f6afa6c36aaa2d1090ecc12 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm" 1712484853 856 7404843a5f798859944d7973a47821d5 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm" 1712484853 856 39c171483fe1bb7d0e1368980c0c205b ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1712481492 1004 54797486969f23fa377b128694d548df ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1712481492 916 f87d7c45f9c908e672703b83b72241a3 ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1712481492 924 9904cf1d39e9767e7a3622f2a125a565 ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1712481492 928 2dc8d444221b7a635bb58038579b861a ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1712481492 908 2921f8a10601f252058503cc6570e581 ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm" 1712481492 940 75ac932a52f80982a9f8ea75d03a34cf ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1712481492 940 228d6584342e91276bf566bcf9716b83 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1712482115 1288 655e228510b4c2a1abe905c368440826 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr17.tfm" 1712482115 1292 296a67155bdbfc32aa9c636f21e91433 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1712482115 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr9.tfm" 1712482115 1292 6b21b9c2c7bebb38aa2273f7ca0fb3af ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmss12.tfm" 1712482115 1324 37b971caf729d7edd9cbb9f9b0ea76eb ""
   "c:/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty" 1712481493 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
+  "c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd" 1712481493 961 6518c6525a34feb5e8250ffa91731cff ""
+  "c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd" 1712481493 961 d02606146ba5601b5645f987c92e6193 ""
   "c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty" 1712481496 2222 499d61426192c39efd8f410ee1a52b9c ""
   "c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty" 1712481496 4173 82ac04dfb1256038fad068287fbb4fe6 ""
   "c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty" 1712481496 88371 d84032c0f422c3d1e282266c01bef237 ""
@@ -39,9 +48,12 @@
   "c:/texlive/2024/texmf-dist/web2c/texmf.cnf" 1712481379 41663 c82a74d8036de408d74af2c8ae75c7e5 ""
   "c:/texlive/2024/texmf-var/web2c/euptex/platex.fmt" 1712486467 8157907 854fb5fb1b64b459c6bddcad44707c60 ""
   "c:/texlive/2024/texmf.cnf" 1712486193 713 e69b156964470283e0530f5060668171 ""
+  "image/model01.jpg" 1713268935 13143 e9976d8c07607a026b5f73f81411bb62 ""
+  "image/model02.jpg" 1713270506 18608 3833c88c48e29e0e924a6ece73875d1f ""
   "image/roomba.png" 1713262892 413883 444b815436c4929894d2574137da37b9 ""
-  "main.tex" 1713263640 4088 9b012de9f10b7861258a528782628aaf ""
-  "out/main.aux" 1713263644 834 99ea589d8c4abaf3820bbee17f88aad5 "latex"
+  "image/rulo.jpg" 1713267966 40681 aaa2709ae46a4cb7a7fee2dca4fdec9c ""
+  "main.tex" 1713271212 6801 a6ed966ab7f70b3124b30e85a5b482de ""
+  "out/main.aux" 1713271216 1406 1c9e48d93dd35c6765a304c76199fe6a "latex"
   (generated)
   "out/main.aux"
   "out/main.dvi"
