@@ -1,11 +1,11 @@
 # Fdb version 4
-["dvipdf"] 1713252343.18995 "out/main.dvi" "out/main.pdf" "out/main" 1713252344.17564 0
-  "out/main.dvi" 1713252343 1096 540b5e72f8a9e61b6f16fa8e90093b90 "latex"
+["dvipdf"] 1713263644.1462 "out/main.dvi" "out/main.pdf" "out/main" 1713263645.31022 0
+  "out/main.dvi" 1713263644 3164 cde9c6195fe0ce5eb0096ca9838a1cc5 "latex"
   (generated)
   "out/main.pdf"
   (rewritten before read)
-["latex"] 1713252342.3081 "c:/Users/right/OneDrive/ドキュメント/院試研究計画書/main.tex" "out/main.dvi" "main" 1713252344.17326 0
-  "c:/Users/right/OneDrive/ドキュメント/院試研究計画書/main.tex" 1713252341 2653 16984f49fb16c18111ef98a9871b2d49 ""
+["latex"] 1713263642.67326 "c:/Users/right/OneDrive/ドキュメント/院試研究計画書/main.tex" "out/main.dvi" "main" 1713263645.30694 0
+  "c:/Users/right/OneDrive/ドキュメント/院試研究計画書/main.tex" 1713263640 4088 9b012de9f10b7861258a528782628aaf ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1712482887 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm" 1712484853 468 53f854284f6afa6c36aaa2d1090ecc12 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm" 1712484853 468 53f854284f6afa6c36aaa2d1090ecc12 ""
@@ -14,6 +14,7 @@
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1712482115 1288 655e228510b4c2a1abe905c368440826 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr17.tfm" 1712482115 1292 296a67155bdbfc32aa9c636f21e91433 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1712482115 1292 21c1c5bfeaebccffdb478fd231a0997d ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr9.tfm" 1712482115 1292 6b21b9c2c7bebb38aa2273f7ca0fb3af ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmss12.tfm" 1712482115 1324 37b971caf729d7edd9cbb9f9b0ea76eb ""
   "c:/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty" 1712481493 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
   "c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty" 1712481496 2222 499d61426192c39efd8f410ee1a52b9c ""
@@ -25,12 +26,12 @@
   "c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1712482764 18450 88279bf67c81e69f8e3f1c1bad1a26c5 ""
   "c:/texlive/2024/texmf-dist/tex/latex/float/float.sty" 1712482859 6749 16d2656a1984957e674b149555f1ea1d ""
   "c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1712483075 1224 978390e9c2234eab29404bc21b268d1e ""
-  "c:/texlive/2024/texmf-dist/tex/latex/graphics-def/dvips.def" 1712483075 6282 3d1fff8973f8803fd81ea577dda4f3ef ""
+  "c:/texlive/2024/texmf-dist/tex/latex/graphics-def/dvipdfmx.def" 1712483075 12296 04d6453afafd99986deba3629756d9ec ""
   "c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty" 1712483073 18387 8f900a490197ebaf93c02ae9476d4b09 ""
   "c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty" 1712483073 8010 a8d949cbdbc5c983593827c9eec252e1 ""
   "c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty" 1712483073 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
   "c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty" 1712483074 4023 293ea1c16429fc0c4cf605f4da1791a9 ""
-  "c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-dvips.def" 1712483554 35588 bc4974767c4b56a17fdafbe5814b6b55 ""
+  "c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def" 1712483554 29882 777cc8489d0c52e4585cc6dd4ab8b6a6 ""
   "c:/texlive/2024/texmf-dist/tex/latex/titlesec/titlesec.sty" 1712485635 48766 0b93839be28e9744a24c45075c75b2e2 ""
   "c:/texlive/2024/texmf-dist/tex/latex/url/url.sty" 1712485887 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "c:/texlive/2024/texmf-dist/tex/platex/jsclasses/jsarticle.cls" 1712483423 61387 1c16fa09f9aa344f6b7ed4a7e2c399b2 ""
@@ -38,8 +39,9 @@
   "c:/texlive/2024/texmf-dist/web2c/texmf.cnf" 1712481379 41663 c82a74d8036de408d74af2c8ae75c7e5 ""
   "c:/texlive/2024/texmf-var/web2c/euptex/platex.fmt" 1712486467 8157907 854fb5fb1b64b459c6bddcad44707c60 ""
   "c:/texlive/2024/texmf.cnf" 1712486193 713 e69b156964470283e0530f5060668171 ""
-  "main.tex" 1713252341 2653 16984f49fb16c18111ef98a9871b2d49 ""
-  "out/main.aux" 1713252343 656 62b0412f93e01d67eff3b2f16542ddd6 "latex"
+  "image/roomba.png" 1713262892 413883 444b815436c4929894d2574137da37b9 ""
+  "main.tex" 1713263640 4088 9b012de9f10b7861258a528782628aaf ""
+  "out/main.aux" 1713263644 834 99ea589d8c4abaf3820bbee17f88aad5 "latex"
   (generated)
   "out/main.aux"
   "out/main.dvi"

@@ -40,9 +40,9 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-def/dvips.def
-INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-def/dvips.def
-INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-def/dvips.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
 INPUT c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/comment/comment.sty
@@ -51,8 +51,8 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
 INPUT out/main.aux
 INPUT out/main.aux
 INPUT out/main.aux
@@ -63,11 +63,15 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
+INPUT ./image/roomba.png
+INPUT ./image/roomba.png
+INPUT ./image/roomba.png
+INPUT extractbb -B cropbox -O image/roomba.png
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 OUTPUT out/main.dvi
 INPUT out/main.aux
