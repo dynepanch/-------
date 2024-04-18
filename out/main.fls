@@ -93,13 +93,22 @@ INPUT ./image/rulo.jpg
 INPUT ./image/rulo.jpg
 INPUT ./image/rulo.jpg
 INPUT extractbb -B cropbox -O image/rulo.jpg
+OUTPUT out/main.dvi
 INPUT ./image/model01.jpg
 INPUT ./image/model01.jpg
 INPUT ./image/model01.jpg
 INPUT extractbb -B cropbox -O image/model01.jpg
-OUTPUT out/main.dvi
 INPUT ./image/model02.jpg
 INPUT ./image/model02.jpg
 INPUT ./image/model02.jpg
 INPUT extractbb -B cropbox -O image/model02.jpg
+INPUT ./image/1unit.png
+INPUT ./image/1unit.png
+INPUT ./image/1unit.png
+INPUT extractbb -B cropbox -O image/1unit.png
+INPUT ./image/kasane.png
+INPUT ./image/kasane.png
+INPUT ./image/kasane.png
+INPUT extractbb -B cropbox -O image/kasane.png
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT out/main.aux
