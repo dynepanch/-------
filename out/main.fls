@@ -66,10 +66,9 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
-INPUT ./image/roomba.png
-INPUT ./image/roomba.png
-INPUT ./image/roomba.png
-INPUT extractbb -B cropbox -O image/roomba.png
+INPUT ./image/mn0201_kachaka_006.jpg
+INPUT ./image/mn0201_kachaka_006.jpg
+INPUT extractbb -B cropbox -O image/mn0201_kachaka_006.jpg
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
@@ -94,14 +93,12 @@ INPUT ./image/rulo.jpg
 INPUT ./image/rulo.jpg
 INPUT extractbb -B cropbox -O image/rulo.jpg
 OUTPUT out/main.dvi
-INPUT ./image/model01.jpg
-INPUT ./image/model01.jpg
-INPUT ./image/model01.jpg
-INPUT extractbb -B cropbox -O image/model01.jpg
-INPUT ./image/model02.jpg
-INPUT ./image/model02.jpg
-INPUT ./image/model02.jpg
-INPUT extractbb -B cropbox -O image/model02.jpg
+INPUT ./image/model01.png
+INPUT ./image/model01.png
+INPUT extractbb -B cropbox -O image/model01.png
+INPUT ./image/small_moment.png
+INPUT ./image/small_moment.png
+INPUT extractbb -B cropbox -O image/small_moment.png
 INPUT ./image/1unit.png
 INPUT ./image/1unit.png
 INPUT ./image/1unit.png
@@ -110,5 +107,4 @@ INPUT ./image/kasane.png
 INPUT ./image/kasane.png
 INPUT ./image/kasane.png
 INPUT extractbb -B cropbox -O image/kasane.png
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT out/main.aux

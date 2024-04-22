@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.4.7)  18 APR 2024 16:31
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.4.7)  22 APR 2024 14:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -211,21 +211,21 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 74.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 74.
-File: image/roomba.png Graphic file (type bmp)
-<image/roomba.png>
+File: image/mn0201_kachaka_006.jpg Graphic file (type bmp)
+<image/mn0201_kachaka_006.jpg>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 82.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 82.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 96.
+(Font)              scaled to size 6.72699pt on input line 97.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 96.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 96.
+(Font)              scaled to size 4.805pt on input line 97.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 97.
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 96.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 97.
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -235,21 +235,21 @@ File: image/rulo.jpg Graphic file (type bmp)
 
 
 ]
-File: image/model01.jpg Graphic file (type bmp)
-<image/model01.jpg>
-File: image/model02.jpg Graphic file (type bmp)
-<image/model02.jpg>
+File: image/model01.png Graphic file (type bmp)
+<image/model01.png>
+File: image/small_moment.png Graphic file (type bmp)
+<image/small_moment.png>
 File: image/1unit.png Graphic file (type bmp)
 <image/1unit.png>
 File: image/kasane.png Graphic file (type bmp)
 <image/kasane.png>
 
-Overfull \hbox (11.97707pt too wide) in paragraph at lines 201--204
-[]\OT1/cmr/m/n/10 https://www.irobot-jp.com/roombacombo/i5/ 
+Overfull \hbox (6.25482pt too wide) in paragraph at lines 202--205
+[]\OT1/cmr/m/n/10 https://store.kachaka.life/products/detail/50 
  []
 
 [2]
-Overfull \hbox (7.69928pt too wide) in paragraph at lines 204--207
+Overfull \hbox (7.69928pt too wide) in paragraph at lines 205--208
 []\OT1/cmr/m/n/10 https://panasonic.jp/soji/products/rulo.html 
  []
 
@@ -263,12 +263,12 @@ L3 programming layer <2024-03-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2662 strings out of 474762
- 39152 string characters out of 5761808
- 1928341 words of memory out of 5000000
- 25020 multiletter control sequences out of 15000+600000
- 567346 words of font info for 81 fonts, out of 8000000 for 9000
+ 2693 strings out of 474762
+ 40165 string characters out of 5761808
+ 1930341 words of memory out of 5000000
+ 25052 multiletter control sequences out of 15000+600000
+ 567011 words of font info for 80 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 57i,11n,65p,286b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,10n,65p,286b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/main.dvi (3 pages, 9948 bytes).
+Output written on out/main.dvi (3 pages, 9860 bytes).

@@ -62,7 +62,7 @@
     \vspace{20mm}
     {\huge 研究計画書}\\
     \vspace{5mm}  
-    {\Large 車輪に依存しない段差踏破ロボットの開発}\\
+    {\Large 車輪に依存しない段差登攀ロボットの開発}\\
     \vspace{5mm}
     {\Large 千葉工業大学 先進工学部 未来ロボティクス学科 米田研究室}\\
     {\Large 学生番号 21C1016 稲葉健}\\
@@ -78,19 +78,20 @@
 % 画像
 \begin{figure}[H]
   \centering
-  \includegraphics[width=50mm]{image/roomba.png}
-  \caption{段差を乗り越えるルンバ}
-  [1]
+  \includegraphics[width=50mm]{image/mn0201_kachaka_006}
+  \caption{家庭内を移動するロボット(kachaka)[1]}
+  
   \label{fig:runba}
 \end{figure}
 したがって,室内移動型のロボットを複数階建ての一軒家などで運用する場合,
-複数のフロアで稼働させるためには人間がロボットを移動させるか,別フロアの作業は人間が行う必要がある.
+複数のフロアで稼働させるためには人間がロボットを移動させるか,
+複数台のロボットを稼働させる必要がある.
 移動させる作業はロボットの重量が増えていくごとに困難になり,
 作業中の事故なども懸念される.
-また,人間が代わりの作業を行うとなると,ロボットを導入したメリットを享受できるのが1フロアだけになってしまう.
+また,複数台稼働させるとなると,1台のロボットを導入したメリットを享受できるのが1フロアだけになってしまう.
 
 そこで,車輪で移動を行い,段差の上り下りを車輪に依存せずに行うロボットを開発すれば,
-車輪径や車高は別の問題に最適化しつつ,フロア移動が可能になるのではないかと考えた.
+車輪径や車高は別の問題に最適化しつつ,フロア間の移動が可能になるのではないかと考えた.
 \section{研究目的}
 現在普及の進む掃除ロボットの中には段差登攀性能を売りにしている製品も存在する.
 しかし,Fig.\ref{fig:rulo}に示すようにその多くが$20\mathrm{mm}$程度のカーペットやラグなどで生じる小さな段差を想定しており,
@@ -99,8 +100,7 @@
 \begin{figure}[H]
   \centering
   \includegraphics[width=50mm]{image/rulo.jpg}
-  \caption{Panasonic RULO}
-  [2]
+  \caption{Panasonic RULO[2]}
 \label{fig:rulo}
 \end{figure}
 
@@ -112,10 +112,10 @@ $200\mathrm{mm}$の段差登攀性能を有すロボットの開発を目的と�
 既存のロボットにも応用可能であることを示す.
 
 \section{研究方法}
-段差踏破方法について,二つのユニットを用いて互いを持ち上げ合う方式を取る.
+段差踏破方法について,二つの台車を用いて互いを持ち上げ合う方式を取る.
 
-Fig.\ref{fig:model01}に示すように,二つのユニットをアームし,上の段に登った
-ユニットに重りを移動させ,段差の下のユニットを持ち上げることで段差の登攀を完了する.
+Fig.\ref{fig:model01}に示すように,二つの台車をアームで接続し,上の段に登った
+台車に重りを移動させ,段差の下の台車を持ち上げることで段差の登攀を完了する.
 登攀の際に移動させる重りの条件式である.
 % 数式
 \begin{equation}
@@ -125,42 +125,43 @@ Fig.\ref{fig:model01}に示すように,二つのユニットをアームし,上
 \begin{table}[H]
     \begin{tabular}{lcl}
       $M$ & : & 移動させる重りの質量[kg]\\
-      $m$ & : & 1ユニットの質量[kg]\\
-      $l$ & : & ユニット間距離[mm]\\
-      $l'$,$l''$  & : & ユニットの支点から重心の距離[mm]\\
+      $m$ & : & 台車の質量[kg]\\
+      $l$ & : & 台車間距離[mm]\\
+      $l_1$,$l_2$  & : & 台車の支点から重心の距離[mm]\\
+      $\theta$ & : & 台車とアームの角度[deg]\\
   \end{tabular}
 \end{table}
-$\theta$は地面とアームの角度である.\\
-式(\ref*{equ:model01})より,Mを最小限に抑えるには持ち上げる瞬間の$lcos\theta$を小さくする必要があることが分かる.
-そのため,アームの中央に自由度を追加し,したユニットの持ち上げ時にはFig.\ref{fig:model02}
+式(\ref*{equ:model01})より,Mを最小限に抑えるには
+持ち上げる瞬間の$lcos\theta$を小さくする必要があることが分かる.
+そのため,アームの中央に自由度を追加し,段差の下にある台車を持ち上げる際にはFig.\ref{fig:model02}
 の様にアームを畳み込み,モーメントを減少させる.
 % 画像
 \begin{figure}[H]
   \centering
-  \includegraphics[width=50mm]{image/model01.jpg}
+  \includegraphics[width=50mm]{image/model01}
   \caption{機体模式図}
 \label{fig:model01}
 \end{figure}
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=50mm]{image/model02.jpg}
-  \caption{登攀動作模式図}
-\label{fig:model02}
-\end{figure}
 
 重りの移動について,アームが3自由度であり,
-各ユニット間の距離が不定になるため,液体をポンプで輸送する方法を採用する.
-液体は安価で安全な水道水を使用し,
-二つのユニットについたタンク内を行き来させることで
-持ち上げ動作時に接地するユニットを切り替え,
+各台車間の距離が可変になるため,液体をポンプで輸送する方法を採用する.
+水を始めとする液体を,
+二つの台車についたタンク内を行き来させることで
+持ち上げ動作時に接地する台車を切り替え,
 段差を登攀する.
-
-製作するユニットをFig.\ref*{fig:CAD}に示す.
+% 画像
+\begin{figure}[H]
+\centering
+\includegraphics[width=50mm]{image/small_moment}
+\caption{段差登攀時の動作イメージ}
+\label{fig:model02}
+\end{figure}
+製作する台車をFig.\ref*{fig:CAD}に示す.
 % 画像
 \begin{figure}[H]
 \centering
 \includegraphics[width=50mm]{image/1unit.png}
-\caption{ユニットのCAD図}
+\caption{設計した台車}
 \label{fig:CAD}
 \end{figure}
 また,狭い段差内で移動する際の形状をFig.\ref*{fig:move}に示す.
@@ -169,7 +170,7 @@ $\theta$は地面とアームの角度である.\\
 \begin{figure}[H]
 \centering
 \includegraphics[width=50mm]{image/kasane.png}
-\caption{移動時のCAD図}
+\caption{移動時の全体図}
 \label{fig:move}
 \end{figure}
 
@@ -198,9 +199,9 @@ $\theta$は地面とアームの角度である.\\
 \section{引用}
 \begin{enumerate}
 \renewcommand{\labelenumi}{[\arabic{enumi}]}
-  \item iRobot Roomba Combo™ i5+\\
-        https://www.irobot-jp.com/roombacombo/i5/\\
-        (参照 2024-4-18)
+  \item kachaka\\
+        https://store.kachaka.life/products/detail/50\\
+        (参照 2024-4-19)
   \item Panasonic ルーロ\\
         https://panasonic.jp/soji/products/rulo.html\\
         (参照 2024-4-18)
