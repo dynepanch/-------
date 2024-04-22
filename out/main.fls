@@ -93,18 +93,18 @@ INPUT ./image/rulo.jpg
 INPUT ./image/rulo.jpg
 INPUT extractbb -B cropbox -O image/rulo.jpg
 OUTPUT out/main.dvi
-INPUT ./image/model01.png
-INPUT ./image/model01.png
-INPUT extractbb -B cropbox -O image/model01.png
-INPUT ./image/small_moment.png
-INPUT ./image/small_moment.png
-INPUT extractbb -B cropbox -O image/small_moment.png
-INPUT ./image/1unit.png
-INPUT ./image/1unit.png
-INPUT ./image/1unit.png
-INPUT extractbb -B cropbox -O image/1unit.png
 INPUT ./image/kasane.png
 INPUT ./image/kasane.png
 INPUT ./image/kasane.png
 INPUT extractbb -B cropbox -O image/kasane.png
+INPUT ./image/1unit.png
+INPUT ./image/1unit.png
+INPUT ./image/1unit.png
+INPUT extractbb -B cropbox -O image/1unit.png
+INPUT ./image/model01.png
+INPUT ./image/model01.png
+INPUT extractbb -B cropbox -O image/model01.png
+INPUT ./image/flow.png
+INPUT ./image/flow.png
+INPUT extractbb -B cropbox -O image/flow.png
 INPUT out/main.aux
