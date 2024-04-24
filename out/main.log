@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.4.7)  22 APR 2024 19:23
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.4.7)  24 APR 2024 18:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -231,6 +231,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 File: image/rulo.jpg Graphic file (type bmp)
 <image/rulo.jpg>
+File: image/model01.png Graphic file (type bmp)
+<image/model01.png>
 [1
 
 
@@ -239,22 +241,15 @@ File: image/kasane.png Graphic file (type bmp)
 <image/kasane.png>
 File: image/1unit.png Graphic file (type bmp)
 <image/1unit.png>
-File: image/model01.png Graphic file (type bmp)
-<image/model01.png>
 File: image/flow.png Graphic file (type bmp)
 <image/flow.png>
-
-Overfull \hbox (66.15239pt too wide) in paragraph at lines 173--174
- [][] 
- []
-
 [2]
-Overfull \hbox (6.25482pt too wide) in paragraph at lines 212--215
+Overfull \hbox (6.25482pt too wide) in paragraph at lines 216--219
 []\OT1/cmr/m/n/10 https://store.kachaka.life/products/detail/50 
  []
 
 
-Overfull \hbox (7.69928pt too wide) in paragraph at lines 215--218
+Overfull \hbox (7.69928pt too wide) in paragraph at lines 219--222
 []\OT1/cmr/m/n/10 https://panasonic.jp/soji/products/rulo.html 
  []
 
@@ -276,4 +271,4 @@ Here is how much of TeX's memory you used:
  934 hyphenation exceptions out of 8191
  57i,10n,65p,286b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/main.dvi (3 pages, 10784 bytes).
+Output written on out/main.dvi (3 pages, 11624 bytes).
